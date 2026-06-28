@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DSA Visualizer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Sorting Algorithm Visualizer</h1>
+        <p id="subtitle">Visualize how different sorting algorithms work</p>
+        <div id="controls">
+        <button id="generate">Generate Array</button>
+        <button id="bubble">Bubble Sort</button>
+        <button id="selection">Selection Sort</button>
+        <button id="insertion">Insertion Sort</button>
+        <button id="merge">Merge Sort</button>
+        <button id="quick">Quick Sort</button>
+        </div>
+        <div id="slider-panel">
+
+    <div class="slider-box">
+        <h3>Speed</h3>
+        <input type="range" id="speed">
+        <div class="labels">
+            <span>Slow</span>
+            <span>Fast</span>
+        </div>
+    </div>
+    <div class="slider-box">
+        <h3>Array Size</h3>
+        <input type="range" id="size">
+        <div class="labels">
+            <span>Small</span>
+            <span>Large</span>
+        </div>
+    </div>
+</div>
+        <div id="array-container">
+        </div>
+        <div id="legend">
+
+    <span>🟦 Sorted</span>
+    <span>🟥 Comparing</span>
+    <span>🟩 Default</span>
+
+</div>
+        <script src="script.js">   </script>
+    </body>
+</html>
