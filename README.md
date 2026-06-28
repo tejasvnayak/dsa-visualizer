@@ -1,7 +1,11 @@
 # Sorting Algorithm Visualizer
 
 A web-based Sorting Algorithm Visualizer built using HTML, CSS, and JavaScript.
+# Sorting Algorithm Visualizer
 
+![Sorting Visualizer](screenshot.png)
+
+A web-based Sorting Algorithm Visualizer built using HTML, CSS, and JavaScript.
 ## Live Demo
 
 https://tejasvnayak.github.io/dsa-visualizer/
